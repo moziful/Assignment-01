@@ -8,6 +8,7 @@ body {
     font-family: "Inter";
     font-size: 16px;
 }
+
 nav {
     padding: 16px 120px;
     display: flex;
@@ -48,9 +49,125 @@ nav .earlyAccessButtonContainer .earlyAccessButton:hover {
     background-color: #129d4c;
 }
 
+header #banner {
+    height: 674px;
+    background: url(./assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 70px 120px 134px 120px;
+}
+
+header #banner .bannerContent {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 32px;
+}
+
+header #banner .bannerContent .bannerText {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+header #banner .bannerContent .bannerText h1 {
+    opacity: 90%;
+    width: 770px;
+    height: 168px;
+    font-size: 72px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+header #banner .bannerContent .bannerText p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+header #banner .bannerContent .bannerText h1 .whiteText {
+    color: #FFFFFF;
+}
+
+header #banner .bannerContent .bannerText h1 .greenText {
+    color: #30B868;
+}
+
+header #banner .bannerContent .bannerText .earlyAccessStatus {
+    max-width: 230px;
+    margin: 0 auto;
+    padding: 8px 12px;
+    color: #30B868;
+    background-color: #FFFFFF;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    border-radius: 1000px;
+}
+
+header #banner .bannerContent .bannerText .earlyAccessStatus .greenCircle {
+    height: 16px;
+    width: 16px;
+    background-color: rgba(48, 184, 104, 0.2);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header #banner .bannerContent .bannerText .earlyAccessStatus .midCircle {
+    width: 12px;
+    height: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgba(48, 184, 104, 0.4);
+}
+
+header #banner .bannerContent .bannerText .earlyAccessStatus .innerCircle {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: rgba(48, 184, 104, 1);
+}
+
+header #banner .bannerContent .bannerButtonContainer {
+    display: flex;
+    gap: 16px;
+    margin: 0 auto;
+}
+
+header #banner .bannerContent .bannerButtonContainer button {
+    padding: 12px 16px;
+    background-color: #30B868;
+    color: #FFFFFF;
+    height: 52px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+header #banner .bannerContent .bannerButtonContainer #transparentButton {
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+}
+
+header #banner .bannerContent .bannerButtonContainer button:hover{
+    background-color: #129d4c;
+}
+
+header #banner .bannerContent .bannerButtonContainer #transparentButton:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid #FFFFFF;
+}
 
 
 /* Test Codes */
-nav {
+/* nav {
     border: 1px solid red;
-}
+} */
