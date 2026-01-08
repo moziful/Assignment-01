@@ -166,8 +166,67 @@ header #banner .bannerContent .bannerButtonContainer #transparentButton:hover {
     border: 1px solid #FFFFFF;
 }
 
+main .notes {
+    padding: 0 120px;
+    display: flex;
+    gap: 44px;
+    flex-direction: column;
+    text-align: center;
+}
 
-/* Test Codes */
-/* nav {
-    border: 1px solid red;
-} */
+main .notes .notesHeadingSection {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+}
+
+main .notes #notesHeading {
+    color: #001931;
+    font-size: 48px;
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+main .notes #notesSubHeading {
+    color: #627382;
+    line-height: 20px
+}
+
+main .notes .cardSection {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+main .notes .cardSection .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    gap: 16px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+main .notes .cardSection .cards .noteCardImage {
+    width: 60px;
+    height: 60px;
+    background-color: #F95555;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .notes .cardSection .cards .cardName {
+    font-size: 24px;
+    font-weight: 600;
+    color: #001932;
+    text-align: center;
+}
+
+main .notes .cardSection .cards .cardText {
+    color: #627382;
+    line-height: 20px;
+}
