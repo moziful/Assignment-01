@@ -344,3 +344,39 @@ main .think .thinkContainer .thinkHeadingContainer {
     line-height: 20px;
 }
 
+footer {
+    color: #F7F6F2;
+    background-color: #001931;
+    padding: 120px 120px 30px 120px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 80px;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-between;
+}
+
+.socialLinks {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.socialIcons i {
+    width: 20px;
+    height: 20px;
+    color: #001931;
+    background-color: #F7F6F2;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
