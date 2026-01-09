@@ -31,8 +31,7 @@ nav .menu {
 
 nav .menu a {
     text-decoration: none;
-    color: #000000;
-}
+    color: #001931;}
 
 nav .earlyAccessButtonContainer .earlyAccessButton {
     color: #FFFFFF;
@@ -152,6 +151,11 @@ header #banner .bannerContent .bannerButtonContainer button {
     cursor: pointer;
 }
 
+header #banner .bannerContent .bannerButtonContainer #startButton, #transparentButton {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
 header #banner .bannerContent .bannerButtonContainer #transparentButton {
     background-color: transparent;
     border: 1px solid #FFFFFF;
@@ -228,5 +232,64 @@ main .notes .cardSection .cards .cardName {
 
 main .notes .cardSection .cards .cardText {
     color: #627382;
+    line-height: 20px;
+}
+main .secondBrain {
+    padding: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .secondBrain img {
+    width: 600px;
+    height: 600px;
+}
+
+main .secondBrain .brainData {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+main .secondBrain .brainData .brainDataPart {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+main .secondBrain .brainData .solution {
+    color: #30B868;
+    line-height: 20px;
+}
+
+main .secondBrain .brainData .brainDataHeading {
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+}
+
+main .secondBrain .brainData .brainDataText {
+    line-height: 20px;
+    color: #627382;
+}
+
+main .secondBrain .brainData .brainDataPart .motto {
+    display: flex;
+    gap: 6px;
+}
+
+main .secondBrain .brainData .brainDataPart .motto .checkCircle {
+    width: 20px;
+    height: 20px;
+}
+
+main .secondBrain .brainData .brainDataPart .motto .checkCircle img {
+    width: 16.5px;
+    height: 16.5px;
+}
+
+main .secondBrain .brainData .brainDataPart .motto .mottoText {
+    color: #001931;
     line-height: 20px;
 }
