@@ -113,13 +113,13 @@ header #banner {
     border-radius: 50%;
 }
 
-header #banner .bannerContent .bannerText .earlyAccessStatus .midCircle {
+.midCircle {
     padding: 6px;
     border-radius: 50%;
     background-color: rgba(48, 184, 104, 0.4);
 }
 
-header #banner .bannerContent .bannerText .earlyAccessStatus .innerCircle {
+.innerCircle {
     padding: 3px;
     border-radius: 50%;
     background-color: rgba(48, 184, 104, 1);
@@ -158,7 +158,7 @@ header #banner .bannerContent .bannerText .earlyAccessStatus .innerCircle {
 
 #transparentButton:hover {
     background-color: rgba(0, 0, 0, 0.3);
-    border: 1px solid #FFFFFF;
+    border: 2px solid #FFFFFF;
 }
 
 main .notes {
