@@ -56,21 +56,21 @@ header #banner {
     padding: 70px 120px 134px 120px;
 }
 
-header #banner .bannerContent {
+.bannerContent {
     display: flex;
     justify-content: center;
     flex-direction: column;
     gap: 32px;
 }
 
-header #banner .bannerContent .bannerText {
+.bannerContent .bannerText {
     display: flex;
     justify-content: center;
     flex-direction: column;
     gap: 16px;
 }
 
-header #banner .bannerContent .bannerText h1 {
+.bannerContent .bannerText h1 {
     opacity: 90%;
     width: 770px;
     height: 168px;
@@ -79,22 +79,22 @@ header #banner .bannerContent .bannerText h1 {
     margin: 0 auto;
 }
 
-header #banner .bannerContent .bannerText p {
+.bannerContent .bannerText p {
     text-align: center;
     font-size: 18px;
     line-height: 24px;
     color: #FFFFFF;
 }
 
-header #banner .bannerContent .bannerText h1 .whiteText {
+.bannerText h1 .whiteText {
     color: #FFFFFF;
 }
 
-header #banner .bannerContent .bannerText h1 .greenText {
+.bannerText h1 .greenText {
     color: #30B868;
 }
 
-header #banner .bannerContent .bannerText .earlyAccessStatus {
+.earlyAccessStatus {
     max-width: 230px;
     margin: 0 auto;
     padding: 8px 12px;
@@ -108,7 +108,7 @@ header #banner .bannerContent .bannerText .earlyAccessStatus {
     border-radius: 1000px;
 }
 
-header #banner .bannerContent .bannerText .earlyAccessStatus .greenCircle {
+.earlyAccessStatus .greenCircle {
     height: 16px;
     width: 16px;
     background-color: rgba(48, 184, 104, 0.2);
@@ -135,13 +135,13 @@ header #banner .bannerContent .bannerText .earlyAccessStatus .innerCircle {
     background-color: rgba(48, 184, 104, 1);
 }
 
-header #banner .bannerContent .bannerButtonContainer {
+.bannerButtonContainer {
     display: flex;
     gap: 16px;
     margin: 0 auto;
 }
 
-header #banner .bannerContent .bannerButtonContainer button {
+.bannerButtonContainer button {
     padding: 12px 16px;
     background-color: #30B868;
     color: #FFFFFF;
@@ -151,21 +151,21 @@ header #banner .bannerContent .bannerButtonContainer button {
     cursor: pointer;
 }
 
-header #banner .bannerContent .bannerButtonContainer #startButton, #transparentButton {
+#startButton, #transparentButton {
     display: flex;
     gap: 10px;
     align-items: center;
 }
-header #banner .bannerContent .bannerButtonContainer #transparentButton {
+#transparentButton {
     background-color: transparent;
     border: 2px solid #FFFFFF;
 }
 
-header #banner .bannerContent .bannerButtonContainer button:hover{
+.bannerButtonContainer button:hover{
     background-color: #129d4c;
 }
 
-header #banner .bannerContent .bannerButtonContainer #transparentButton:hover {
+#transparentButton:hover {
     background-color: rgba(0, 0, 0, 0.3);
     border: 1px solid #FFFFFF;
 }
@@ -178,31 +178,34 @@ main .notes {
     text-align: center;
 }
 
-main .notes .notesHeadingSection {
+.notes .notesHeadingSection {
     display: flex;
     gap: 16px;
     flex-direction: column;
 }
 
-main .notes #notesHeading {
+.sectionHeading {
     color: #001931;
     font-size: 48px;
     font-weight: bold;
-    padding-top: 50px;
 }
 
-main .notes #notesSubHeading {
+.sectionSubHeading {
     color: #627382;
     line-height: 20px
 }
+.notesHeading {
+    padding-top: 50px;
+}
 
-main .notes .cardSection {
+
+.cardSection {
     display: flex;
     justify-content: space-between;
     gap: 24px;
 }
 
-main .notes .cardSection .cards {
+.cards {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -213,7 +216,11 @@ main .notes .cardSection .cards {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
 }
 
-main .notes .cardSection .cards .noteCardImage {
+.cards:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.cardImage {
     width: 60px;
     height: 60px;
     background-color: #F95555;
@@ -223,17 +230,13 @@ main .notes .cardSection .cards .noteCardImage {
     align-items: center;
 }
 
-main .notes .cardSection .cards .cardName {
+.cardName {
     font-size: 24px;
     font-weight: 600;
     color: #001932;
     text-align: center;
 }
 
-main .notes .cardSection .cards .cardText {
-    color: #627382;
-    line-height: 20px;
-}
 main .secondBrain {
     padding: 120px;
     display: flex;
@@ -241,55 +244,44 @@ main .secondBrain {
     align-items: center;
 }
 
-main .secondBrain img {
+.secondBrain img {
     width: 600px;
     height: 600px;
 }
 
-main .secondBrain .brainData {
+.brainData {
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
-main .secondBrain .brainData .brainDataPart {
+.brainDataPart {
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
 
-main .secondBrain .brainData .solution {
+.solution {
     color: #30B868;
     line-height: 20px;
 }
 
-main .secondBrain .brainData .brainDataHeading {
-    font-size: 48px;
-    font-weight: bold;
-    color: #001931;
-}
-
-main .secondBrain .brainData .brainDataText {
-    line-height: 20px;
-    color: #627382;
-}
-
-main .secondBrain .brainData .brainDataPart .motto {
+.motto {
     display: flex;
     gap: 6px;
 }
 
-main .secondBrain .brainData .brainDataPart .motto .checkCircle {
+.checkCircle {
     width: 20px;
     height: 20px;
 }
 
-main .secondBrain .brainData .brainDataPart .motto .checkCircle img {
+.checkCircle img {
     width: 16.5px;
     height: 16.5px;
 }
 
-main .secondBrain .brainData .brainDataPart .motto .mottoText {
+.mottoText {
     color: #001931;
     line-height: 20px;
 }
@@ -302,7 +294,7 @@ main .think {
     text-align: center;
 }
 
-main .think .thinkContainer {
+.thinkContainer {
     padding: 40px 80px;
     background-color: #F7F6F2;
     display: flex;
@@ -312,21 +304,12 @@ main .think .thinkContainer {
     border-radius: 12px;
 }
 
-main .think .thinkContainer .thinkHeadingContainer {
+.thinkHeadingContainer {
     display: flex;
     gap: 16px;
     color: #001931;
     flex-direction: column;
     text-align: center;
-}
-
-#thinkHeading {
-    font-size: 40px;
-}
-
-#thinkSubHeading {
-    color: #627382;
-    line-height: 24px;
 }
 
 .earlyAccessArea {
@@ -337,11 +320,10 @@ main .think .thinkContainer .thinkHeadingContainer {
 
 .earlyAccessArea .earlyAccessButton {
     margin: 0 auto;
-}
-
-.earlyAccessText {
-    color: #627382;
-    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 footer {
@@ -368,6 +350,10 @@ footer {
 .socialIcons {
     display: flex;
     justify-content: space-between;
+}
+
+.socialIcons a {
+    text-decoration: none;
 }
 
 .socialIcons i {
