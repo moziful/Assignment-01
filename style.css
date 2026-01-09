@@ -31,7 +31,8 @@ nav .menu {
 
 nav .menu a {
     text-decoration: none;
-    color: #001931;}
+    color: #001931;
+}
 
 .earlyAccessButton {
     color: #FFFFFF;
@@ -95,12 +96,10 @@ header #banner {
 }
 
 .earlyAccessStatus {
-    max-width: 230px;
     margin: 0 auto;
     padding: 8px 12px;
     color: #30B868;
     background-color: #FFFFFF;
-    height: 35px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -109,28 +108,19 @@ header #banner {
 }
 
 .earlyAccessStatus .greenCircle {
-    height: 16px;
-    width: 16px;
+    padding: 4px;
     background-color: rgba(48, 184, 104, 0.2);
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 header #banner .bannerContent .bannerText .earlyAccessStatus .midCircle {
-    width: 12px;
-    height: 12px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 6px;
     border-radius: 50%;
     background-color: rgba(48, 184, 104, 0.4);
 }
 
 header #banner .bannerContent .bannerText .earlyAccessStatus .innerCircle {
-    width: 6px;
-    height: 6px;
+    padding: 3px;
     border-radius: 50%;
     background-color: rgba(48, 184, 104, 1);
 }
@@ -156,6 +146,7 @@ header #banner .bannerContent .bannerText .earlyAccessStatus .innerCircle {
     gap: 10px;
     align-items: center;
 }
+
 #transparentButton {
     background-color: transparent;
     border: 2px solid #FFFFFF;
@@ -194,10 +185,10 @@ main .notes {
     color: #627382;
     line-height: 20px
 }
+
 .notesHeading {
     padding-top: 50px;
 }
-
 
 .cardSection {
     display: flex;
