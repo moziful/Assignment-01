@@ -33,7 +33,7 @@ nav .menu a {
     text-decoration: none;
     color: #001931;}
 
-nav .earlyAccessButtonContainer .earlyAccessButton {
+.earlyAccessButton {
     color: #FFFFFF;
     background-color: #30B868;
     padding: 12px 16px;
@@ -44,7 +44,7 @@ nav .earlyAccessButtonContainer .earlyAccessButton {
     cursor: pointer;
 }
 
-nav .earlyAccessButtonContainer .earlyAccessButton:hover {
+.earlyAccessButton:hover {
     background-color: #129d4c;
 }
 
@@ -158,7 +158,7 @@ header #banner .bannerContent .bannerButtonContainer #startButton, #transparentB
 }
 header #banner .bannerContent .bannerButtonContainer #transparentButton {
     background-color: transparent;
-    border: 1px solid #FFFFFF;
+    border: 2px solid #FFFFFF;
 }
 
 header #banner .bannerContent .bannerButtonContainer button:hover{
@@ -293,3 +293,54 @@ main .secondBrain .brainData .brainDataPart .motto .mottoText {
     color: #001931;
     line-height: 20px;
 }
+
+main .think {
+    padding: 2px 120px 120px 120px;
+    display: flex;
+    gap: 44px;
+    flex-direction: column;
+    text-align: center;
+}
+
+main .think .thinkContainer {
+    padding: 40px 80px;
+    background-color: #F7F6F2;
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 12px;
+}
+
+main .think .thinkContainer .thinkHeadingContainer {
+    display: flex;
+    gap: 16px;
+    color: #001931;
+    flex-direction: column;
+    text-align: center;
+}
+
+#thinkHeading {
+    font-size: 40px;
+}
+
+#thinkSubHeading {
+    color: #627382;
+    line-height: 24px;
+}
+
+.earlyAccessArea {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.earlyAccessArea .earlyAccessButton {
+    margin: 0 auto;
+}
+
+.earlyAccessText {
+    color: #627382;
+    line-height: 20px;
+}
+
